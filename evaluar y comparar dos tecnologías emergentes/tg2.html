@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Trabajo en grupo TG2</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+		table,
+		th,
+		td {
+			border: 1px solid black;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>Desarrollo con Tecnologias Emergentes. Curso 2020-21<br>
+			Trabajo TG2 del grupo 10<br>
+			Titulo: TG2. Evaluar y comparar dos tecnologias emergentes</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#1">1. Informacion general</a></li>
+			<li><a href="#2">2. Descripcion de las tecnologias</a></li>
+			<li><a href="#3">3. Criterios de comparacion</a></li>
+			<li><a href="#4">4. Evaluacion de los criterios por categoria</a></li>
+			<li><a href="#5">5. Comparacion de las tecnologias</a></li>
+			<li><a href="#6">6. Recomendaciones</a></li>
+		</ul>
+	</nav>
+
+	<main>
+		<section id=1">
+			<h2>1. Informacion general</h2>
+			<h3>1.1 Autores</h3>
+			<p>G10. Sergio Sánchez Campo, David Ramos Fernández </p>
+			<h3>1.2 Proyecto Scrum y repositorio en GitLab</h3>
+			<p>
+				<a href="https://gitlab.com/dte2021g10/tg2">https://gitlab.com/dte2021g10/tg2</a>
+			</p>
+			
+			<h3>1.3 Burndown chart</h3>
+			<p>Diagrama Burndown final del Sprint TG2.</p>
+			<img src="burndown.PNG">
+			<h3>1.4 Presentacion del trabajo</h3>
+			<a href="https://universidaddealcala-my.sharepoint.com/:p:/g/personal/david_ramosf_edu_uah_es/ESSdBrEwKH5Jo3p_BAfkRkwBZ9OD0_l_N9AX90T7oVtoAQ?e=6sEvCj">Presentacion con diapositivas del trabajo TG2</a></p>
+		</section>
+		<section id="2">
+			<h2>2. Descripcion de las tecnologias</h2>
+			<h3>2.1 Descripcion de la spaCy</h3>
+			<img src="FotoSPACY.png" width="200" height="100">
+            <p><i class="text-muted"> Fotografía obtenida de la web: <a href="https://todobi.com/introduccion-a-spacy/">https://todobi.com/introduccion-a-spacy/</a></i></p>
+            <p>SpaCy se trata de una biblioteca enfocada en el procesamiento de lenguaje natural para el lenguaje Python. Además, se trata de un software libre y de código abierto. </p>
+            <p>Presenta un diseño totalmente orientado a ayudar en tareas reales y a crear aplicaciones para procesar y comprender volúmenes de texto de gran tamaño. Permiten un amplio abanico de utiliSdades dentro del NLP como la creación de sistemas de extracción de información, creación de sistemas de compresión del lenguaje natural o preprocesamiento de textos para el aprendizaje profundo.</p>
+            <p>Uno de los aspectos más relevantes es su elevada optimización a la hora de extraer información a gran escala, gracias a que fue escrito desde cero en Cython con una administración muy cuidadosa de la memoria.</p>
+            <p>Para finalizar se puede recalcar el enorme ecosistema que existe actualmente alrededor de Spacy y que está en continua expansión. Dotándola de una variedad de plugins y extensiones muy grandes.</p>
+            <p>Cita 1: “Industrial-Strength Natural Language Processing in Python” <a href="https://spacy.io">https://spacy.io</a></p>
+            <p> Cita 2: “Introducing spaCy". explosion.ai. Retrieved 2016-12-18. <a href="https://explosion.ai/blog/introducing-spacy"> https://explosion.ai/blog/introducing-spacy</a></p>
+
+			<h3>2.2 Descripcion de la NLTK</h3>
+			<img src="FotoNLTK.png" width="200" height="200">
+			<p><i class="text-muted"> Fotografía obtenida de la web: <a href="https://python.plainenglish.io/introduction-to-nltk-library-in-python-6fa729b54ad">https://python.plainenglish.io/introduction-to-nltk-library-in-python-6fa729b54ad</a></i></p>
+			<p>NLTK es una plataformade centrada en el procesamiento del lenguaje natural de código abierto en python donde se dispone de un conjunto de bibliotecas
+				de preprocesamiento de texto para poder realizar clasificaciones, tokenización, derivación, etiquetado, análisis y razonamiento semántico. Gracias a estas capacidades
+				se pueden realizar cosas como predicciones sobre un texto para saber que características tiene dicho texto antes de leerlo, realizar chatbots a partir de esta tecnología o 
+				relizar un análisis del sentimiento de los comentarios hacia un producto.</p>
+				<p>Además, esta tecnología dispone de una guía práctica para facilitar su acceso y aprendizaje y de un foro de discursiones donde poder buscar ayuda o proponer mejoras. Gracias a esto, esta
+					tecnología se convierte en una gran herramienta para enseñar y trabajar en el procesamiento del lenguaje natural en python  </p>
+				<p>Cita 1: NLTK 3.6.2 documentation.<a href="https://www.nltk.org">https://www.nltk.org</a></p>
+				<p>Cita 2: Python tutorial, Category: NLTK <a href="https://pythonspot.com/category/nltk/">https://pythonspot.com/category/nltk/</a></p>
+		</section>
+		<section id="3">
+			<h2>3. Criterios de comparacion</h2>
+			<h3>3.1 Categoria A: General</h3>
+			<h4>3.1.1 Criterio A.01: Soporte multilenguaje</h4>
+			<ul>
+				<li>Nombre del criterio:Soporte multilenguaje</li>
+				<li>Descripcion: Indica si la tecnología presenta soporte en varios idiomas
+					UML.</li>
+				<li>Booleano (Si/No)</li>
+			</ul>
+			<h4>3.1.2 Criterio A.02: Calidad del soporte</h4>
+			<ul>
+				<li>Nombre del criterio: Calidad del soporte</li>
+				<li>Descripcion: Se mide la calidad del soporte teniendo en cuenta las horas de disponibilidad, opiniones de usuarios, tiempo de respuesta y eficacia de las soluciones</li>
+				<li>Tipo de valor: texto libre (Malo|Normal|Bueno)</li>
+			</ul>
+			<h4>3.1.3 Criterio A.03: Facilidad de uso</h4>
+			<ul>
+				<li>Nombre del criterio: Facilidad de uso</li>
+				<li>Descripcion: Se mide la facilidad de uso teniendo en cuenta las opiniones de los usuarios y diferentes medidas de usabilidad como documentación, correcto diseño visual y estético, estándares y consistencia,
+					flexibilidad y eficiencia de uso. </li>
+				<li>Tipo de valor: texto libre (Fácil|Normal|Difícil)</li>
+			</ul>
+			<h4>3.1.4 Criterio A.04:Precio</h4>
+				<ul>
+					<li>Nombre del criterio: Precio</li>
+					<li>Descripcion: Precio de la implementación o uso de la tecnología.</li>
+					<li>Tipo de valor: Numerico (monetario).</li>
+				</ul>	
+			<h4>3.1.5 Criterio A.05: Código abierto</h4>
+				<ul>
+					<li>Nombre del criterio: Código abierto</li>
+					<li>Descripcion: Indica si la tecnología es de código abierto o no.</li>
+					<li>Tipo de valor: Booleano (Si/No)</li>
+				</ul>	
+			</ul>
+			<h4>3.1.6 Criterio A.06: Licencia</h4>
+			<ul>
+				<li>Nombre del criterio: Licencia</li>
+				<li>Descripcion: Indica el tipo de licencia de la tecnología.</li>
+				<li>Tipo de valor:Texto libre</li>
+			</ul>	
+			<h4>3.1.7 Criterio A.07: Facilidad de instalación</h4>
+			<ul>
+				<li>Nombre del criterio: Instalación</li>
+				<li>Descripcion: Indica si presenta una guía de de instalación y la propia instalación debe ser accesible y sencilla de realizar (en pocos pasos). 
+					</li>
+				<li>Tipo de valor: Booleano (Si/No).</li>
+			</ul>
+		</ul>	
+	</ul>
+			<h3>3.2 Categoria B: Características</h3>
+			
+			<h4>3.2.1 Criterio B.01: API en python</h4>
+			<ul>
+				<li>Nombre del criterio: API en python</li>
+				<li>Descripcion: Indica si se dispone de una interfaz de programación de aplicaciones en python
+					</li>
+				<li>Tipo de valor: Booleano (Si/No)</li>
+			</ul>
+			<h4>3.2.2 Criterio B.02: Función de tokenización</h4>
+			<ul>
+				<li>Nombre del criterio: Tokenización</li>
+				<li>Descripcion: Indica si se dispone de una función para tokenizar.
+					</li>
+				<li>Tipo de valor: Booleano (Si/No)</li>
+			</ul>
+			<h4>3.2.3 Criterio B.03: Etiquetador morfosintáctico</h4>
+			<ul>
+				<li>Nombre del criterio: Etiquetador morfosintáctico</li>
+				<li>Descripcion: Indica si se dispone de un etiquetador morfosintáctico.</li>
+				<li>Tipo de valor: Booleano (Si/No)</li>				
+			</ul>
+			<h4>3.2.4 Criterio B.04: Segmentación de frases</h4>
+			<ul>
+				<li>Nombre del criterio: Segmentación de frases</li>
+				<li>Descripcion: Indica si se dispone de un segmentador de frases.</li>
+				<li>Tipo de valor: Booleano (Si/No)</li>				
+			</ul>
+			<h4>3.2.5 Criterio B.05: Analizador de dependencias</h4>
+			<ul>
+				<li>Nombre del criterio: Analizador de dependencias</li>
+				<li>Descripcion: Indica si se dispone de un analizador de dependencias sintácticas. </li>
+				<li>Tipo de valor: Booleano (Si/No)</li>				
+			</ul>
+			<h4>3.2.6 Criterio B.06: Reconomiento de entidades</h4>
+			<ul>
+				<li>Nombre del criterio: Reconomiento de entidades</li>
+				<li>Descripcion: Indica si se dispone de una función para reconocer entidades.</li>
+				<li>Tipo de valor: Booleano (Si/No)</li>				
+			</ul>
+			<h4>3.2.7 Criterio B.07: Análisis del sentimiento</h4>
+			<ul>
+				<li>Nombre del criterio: Análisis del sentimiento</li>
+				<li>Descripcion: Indica si se dispone de la capacidad de realizar un análisis del sentimiento.</li>
+				<li>Tipo de valor: Booleano (Si/No)</li>				
+			</ul>
+			<h4>3.2.8 Criterio B.08: Resolución de correferencias</h4>
+			<ul>
+				<li>Nombre del criterio: Resolución de correferencias</li>
+				<li>Descripcion: Indica si se dispone de la capacidad realizar resoluciones de correferencias.</li>
+				<li>Tipo de valor: Booleano (Si/No)</li>				
+			</ul>
+			<h4>3.2.9 Criterio B.09: Vectores de palabras integradas</h4>
+			<ul>
+				<li>Nombre del criterio: Vectores de palabras</li>
+				<li>Descripcion: Indica si se dispone de vectores de palabras integradas.</li>
+				<li>Tipo de valor: Booleano (Si/No)</li>				
+			</ul>
+			
+			<h3>3.3 Categoria C: Rendimiento</h3>
+			<h4>3.3.1 Criterio C.01: Velocidad de tokenizer de palabras</h4>
+			<ul>
+				<li>Nombre del criterio: Velocidad de tokenizer de palabras</li>
+				<li>Descripcion: Velocidad de computación en la función tokenizer sobre palabras medido en milisegundos.
+					</li>
+				<li>Tipo de valor: Numerico.</li>
+			</ul>
+			<h4>3.3.2 Criterio C.02: Velocidad de tokenizer de frases</h4>
+			<ul>
+				<li>Nombre del criterio: Velocidad de tokenizer de frases</li>
+				<li>Descripcion: Velocidad de computación en la función tokenizer sobre frases medido en milisegundos.
+					</li>
+				<li>Tipo de valor: Numerico.</li>
+			</ul>
+			<h4>3.3.3 Criterio C.03: Velocidad del etiquetador morfosintáctico</h4>
+			<ul>
+				<li>Nombre del criterio: Velocidad de parsing</li>
+				<li>Descripcion: Velocidad de computación en el uso del etiquetador morfosintáctico medido en milisegundos.
+					</li>
+				<li>Tipo de valor: Numerico.</li>
+			</ul>
+			<h4>3.3.4 Criterio C.04: Precisión del extractor de entidades</h4>
+			<ul>
+				<li>Nombre del criterio: Precisión del extractor de entidades</li>
+				<li>Descripcion: Medición de la precisión a la hora de la extracción de entidades utilizando f_score.
+					</li>
+				<li>Tipo de valor: Numerico (entre 0 y 1).</li>
+			</ul>
+
+
+		</section>
+
+		<section id="4">
+			<h2>4. Evaluacion de los criterios por categoria</h2>
+			<h3>4.1 Evaluacion de los criterios para spaCy</h3>
+			<table>
+				<tr>
+					<th>Criterio</th>
+					<th>Evaluacion</th>
+					<th>Fuente</th>
+				</tr>
+				<tr>
+					<td>Criterio A.01: Soporte multilenguaje </td>
+					<td>No</td>
+					<td><a href="https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4">https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4</a></td>
+				</tr>
+				<tr>
+					<td>Criterio A.02: Calidad del soporte</td>
+					<td>Bueno</td>
+					<td><a href="https://www.g2.com/compare/nltk-vs-explosion-ai-spacy?__cf_chl_jschl_tk__=29203810e285dfc932d61132bdf7a4bb79df7655-1619282403-0-Ady4JO0wQE-JV4DUvQPT7Rwkrnryvqlhwagb0DHB9327JL_hTwq5c0mH5Ga9Lr0Y4-AuQgZ_Dzh0AzjgRXYUhCBdeazIz-BqXSpk1e2tbCaVwG_bB87vTNCOGzX7leo-zXZ7eLm08rY0dxtCs5x7y95fQgzMGYbxk5CBSJhrV4TR8rocgGGwfeUwftI9GtA80_rnCFq9SUA122aP0iwphRpm9da9JZQVfq44-NySPCaw52pSRdt5cLDcr5TmLQlddyNovxiVcOx1lOtTIkbkP1eHoMCGbXNxFMLpfTvMf1L3zDJjItfI_DsztHBJ2AxEkhZFPKUVJ-0Nz8CwkKnH-Uil7Fn5YF7ttaX-yzBmPWiGKJ8mIGpxasLESeLVJ4esXJ0-YbPEcKKjsVwWlv2f7B-4r1yyQQjpBq_UagSqTt906go-EGYQJW_B1Y1qzyTvt0F0GWUWtMsW1xnthPiT0N_FoTNdSlWYmEWbP7Kwgd_8">https://www.g2.com/compare/nltk-vs-explosion-ai-spacy?__cf_chl_jschl_tk__=29203810e285dfc932d61132bdf7a4bb79df7655-1619282403-0-Ady4JO0wQE-JV4DUvQPT7Rwkrnryvqlhwagb0DHB9327JL_hTwq5c0mH5Ga9Lr0Y4-AuQgZ_Dzh0AzjgRXYUhCBdeazIz-BqXSpk1e2tbCaVwG_bB87vTNCOGzX7leo-zXZ7eLm08rY0dxtCs5x7y95fQgzMGYbxk5CBSJhrV4TR8rocgGGwfeUwftI9GtA80_rnCFq9SUA122aP0iwphRpm9da9JZQVfq44-NySPCaw52pSRdt5cLDcr5TmLQlddyNovxiVcOx1lOtTIkbkP1eHoMCGbXNxFMLpfTvMf1L3zDJjItfI_DsztHBJ2AxEkhZFPKUVJ-0Nz8CwkKnH-Uil7Fn5YF7ttaX-yzBmPWiGKJ8mIGpxasLESeLVJ4esXJ0-YbPEcKKjsVwWlv2f7B-4r1yyQQjpBq_UagSqTt906go-EGYQJW_B1Y1qzyTvt0F0GWUWtMsW1xnthPiT0N_FoTNdSlWYmEWbP7Kwgd_8</a></td>
+				</tr>
+				<tr>
+					<td>Criterio A.03: Facilidad de uso</td>
+					<td>Fácil</td>
+					<td><a href="https://www.g2.com/compare/nltk-vs-explosion-ai-spacy?__cf_chl_jschl_tk__=29203810e285dfc932d61132bdf7a4bb79df7655-1619282403-0-Ady4JO0wQE-JV4DUvQPT7Rwkrnryvqlhwagb0DHB9327JL_hTwq5c0mH5Ga9Lr0Y4-AuQgZ_Dzh0AzjgRXYUhCBdeazIz-BqXSpk1e2tbCaVwG_bB87vTNCOGzX7leo-zXZ7eLm08rY0dxtCs5x7y95fQgzMGYbxk5CBSJhrV4TR8rocgGGwfeUwftI9GtA80_rnCFq9SUA122aP0iwphRpm9da9JZQVfq44-NySPCaw52pSRdt5cLDcr5TmLQlddyNovxiVcOx1lOtTIkbkP1eHoMCGbXNxFMLpfTvMf1L3zDJjItfI_DsztHBJ2AxEkhZFPKUVJ-0Nz8CwkKnH-Uil7Fn5YF7ttaX-yzBmPWiGKJ8mIGpxasLESeLVJ4esXJ0-YbPEcKKjsVwWlv2f7B-4r1yyQQjpBq_UagSqTt906go-EGYQJW_B1Y1qzyTvt0F0GWUWtMsW1xnthPiT0N_FoTNdSlWYmEWbP7Kwgd_8">https://www.g2.com/compare/nltk-vs-explosion-ai-spacy?__cf_chl_jschl_tk__=29203810e285dfc932d61132bdf7a4bb79df7655-1619282403-0-Ady4JO0wQE-JV4DUvQPT7Rwkrnryvqlhwagb0DHB9327JL_hTwq5c0mH5Ga9Lr0Y4-AuQgZ_Dzh0AzjgRXYUhCBdeazIz-BqXSpk1e2tbCaVwG_bB87vTNCOGzX7leo-zXZ7eLm08rY0dxtCs5x7y95fQgzMGYbxk5CBSJhrV4TR8rocgGGwfeUwftI9GtA80_rnCFq9SUA122aP0iwphRpm9da9JZQVfq44-NySPCaw52pSRdt5cLDcr5TmLQlddyNovxiVcOx1lOtTIkbkP1eHoMCGbXNxFMLpfTvMf1L3zDJjItfI_DsztHBJ2AxEkhZFPKUVJ-0Nz8CwkKnH-Uil7Fn5YF7ttaX-yzBmPWiGKJ8mIGpxasLESeLVJ4esXJ0-YbPEcKKjsVwWlv2f7B-4r1yyQQjpBq_UagSqTt906go-EGYQJW_B1Y1qzyTvt0F0GWUWtMsW1xnthPiT0N_FoTNdSlWYmEWbP7Kwgd_8</a></td>
+				</tr>
+				<tr>
+					<td>Criterio A.04: Precio</td>
+					<td>Gratis</td>
+					<td><a href="https://es.wikipedia.org/wiki/SpaCy">https://es.wikipedia.org/wiki/SpaCy</a></td>
+				</tr>
+				<tr>
+					<td>Criterio A.05: Código abierto</td>
+					<td>Si</td>
+					<td><a href="https://es.wikipedia.org/wiki/SpaCy">https://es.wikipedia.org/wiki/SpaCy</a></td>
+				</tr>
+				<tr>
+					<td>Criterio A.06: Licencia</td>
+					<td>Licencia MIT</td>
+					<td><a href="https://es.wikipedia.org/wiki/SpaCy">https://es.wikipedia.org/wiki/SpaCy</a></td>
+				</tr>
+				<tr>
+					<td>Criterio A.07: Facilidad de instalación</td>
+					<td>Si</td>
+					<td><a href="https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4">https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4</a></td>
+				</tr>
+				<tr>
+					<td>Criterio B.01: API en python</td>
+					<td>Si</td>
+					<td><a href="https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4">https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4</a></td>
+				</tr>
+				<tr>
+					<td>Criterio B.02: Tokenización</td>
+					<td>Si</td>
+					<td><a href="https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4">https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4</a></td>
+				</tr>
+				<tr>
+					<td>Criterio B.03: Etiquetador morfosintáctico</td>
+					<td>Si</td>
+					<td><a href="https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4">https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4</a></td>
+				</tr>
+				<tr>
+					<td>Criterio B.04: Segmentación de frases</td>
+					<td>Si</td>
+					<td><a href="https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4">https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4</a></td>
+				</tr>
+				<tr>
+					<td>Criterio B.05: Analizador de dependencias</td>
+					<td>Si</td>
+					<td><a href="https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4">https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4</a></td>
+				</tr>
+				<tr>
+					<td>Criterio B.06: Reconomiento de entidades</td>
+					<td>Si</td>
+					<td><a href="https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4">https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4</a></td>
+				</tr>
+				<tr>
+					<td>Criterio B.07: Análisis del sentimiento</td>
+					<td>Si</td>
+					<td><a href="https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4">https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4</a></td>
+				</tr>
+				<tr>
+					<td>Criterio B.08: Resolución de correferencias</td>
+					<td>No</td>
+					<td><a href="https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4">https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4</a></td>
+				</tr>
+				<tr>
+					<td>Criterio B.09: Vectores de palabras integradas</td>
+					<td>Si</td>
+					<td><a href="https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4">https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4</a></td>
+				</tr>
+				<tr>
+					<td>Criterio C.01: Velocidad de tokenizer de palabras</td>
+					<td>6 ms</td>
+					<td><a href="https://medium.com/@akankshamalhotra24/introduction-to-libraries-of-nlp-in-python-nltk-vs-spacy-42d7b2f128f2">https://medium.com/@akankshamalhotra24/introduction-to-libraries-of-nlp-in-python-nltk-vs-spacy-42d7b2f128f2</a></td>
+				</tr>
+				<tr>
+					<td>Criterio C.02: Velocidad de tokenizer de frases</td>
+					<td>95 ms</td>
+					<td><a href="https://medium.com/@akankshamalhotra24/introduction-to-libraries-of-nlp-in-python-nltk-vs-spacy-42d7b2f128f2">https://medium.com/@akankshamalhotra24/introduction-to-libraries-of-nlp-in-python-nltk-vs-spacy-42d7b2f128f2</a></td>
+				</tr>
+				<tr>
+					<td>Criterio C.03: Velocidad del etiquetador morfosintáctico</td>
+					<td> 22 ms</td>
+					<td><a href="https://medium.com/@akankshamalhotra24/introduction-to-libraries-of-nlp-in-python-nltk-vs-spacy-42d7b2f128f2">https://medium.com/@akankshamalhotra24/introduction-to-libraries-of-nlp-in-python-nltk-vs-spacy-42d7b2f128f2</a></td>
+				</tr>
+				<tr>
+					<td>Criterio C.04: Precisión del extractor de entidades</td>
+					<td>0.69</td>
+					<td><a href="https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4">https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4</a></td>
+				</tr>
+			</table>
+			<h4>COMENTARIOS</h4>
+			<p>En los criterios de la categoría C, se han utilizado los mismos inputs para medir dichos criterios. </p>
+
+			<h3>4.2 Evaluacion de los criterios para NLTK</h3>
+			<table>
+				<tr>
+					<th>Criterio</th>
+					<th>Evaluacion</th>
+					<th>Fuente</th>
+				</tr>
+				<tr>
+					<td>Criterio A.01: Soporte multilenguaje </td>
+					<td>Si</td>
+					<td><a href="https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4">https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4</a></td>
+				</tr>
+				<tr>
+					<td>Criterio A.02: Calidad del soporte</td>
+					<td>Bueno</td>
+					<td><a href="https://www.g2.com/compare/nltk-vs-explosion-ai-spacy?__cf_chl_jschl_tk__=29203810e285dfc932d61132bdf7a4bb79df7655-1619282403-0-Ady4JO0wQE-JV4DUvQPT7Rwkrnryvqlhwagb0DHB9327JL_hTwq5c0mH5Ga9Lr0Y4-AuQgZ_Dzh0AzjgRXYUhCBdeazIz-BqXSpk1e2tbCaVwG_bB87vTNCOGzX7leo-zXZ7eLm08rY0dxtCs5x7y95fQgzMGYbxk5CBSJhrV4TR8rocgGGwfeUwftI9GtA80_rnCFq9SUA122aP0iwphRpm9da9JZQVfq44-NySPCaw52pSRdt5cLDcr5TmLQlddyNovxiVcOx1lOtTIkbkP1eHoMCGbXNxFMLpfTvMf1L3zDJjItfI_DsztHBJ2AxEkhZFPKUVJ-0Nz8CwkKnH-Uil7Fn5YF7ttaX-yzBmPWiGKJ8mIGpxasLESeLVJ4esXJ0-YbPEcKKjsVwWlv2f7B-4r1yyQQjpBq_UagSqTt906go-EGYQJW_B1Y1qzyTvt0F0GWUWtMsW1xnthPiT0N_FoTNdSlWYmEWbP7Kwgd_8">https://www.g2.com/compare/nltk-vs-explosion-ai-spacy?__cf_chl_jschl_tk__=29203810e285dfc932d61132bdf7a4bb79df7655-1619282403-0-Ady4JO0wQE-JV4DUvQPT7Rwkrnryvqlhwagb0DHB9327JL_hTwq5c0mH5Ga9Lr0Y4-AuQgZ_Dzh0AzjgRXYUhCBdeazIz-BqXSpk1e2tbCaVwG_bB87vTNCOGzX7leo-zXZ7eLm08rY0dxtCs5x7y95fQgzMGYbxk5CBSJhrV4TR8rocgGGwfeUwftI9GtA80_rnCFq9SUA122aP0iwphRpm9da9JZQVfq44-NySPCaw52pSRdt5cLDcr5TmLQlddyNovxiVcOx1lOtTIkbkP1eHoMCGbXNxFMLpfTvMf1L3zDJjItfI_DsztHBJ2AxEkhZFPKUVJ-0Nz8CwkKnH-Uil7Fn5YF7ttaX-yzBmPWiGKJ8mIGpxasLESeLVJ4esXJ0-YbPEcKKjsVwWlv2f7B-4r1yyQQjpBq_UagSqTt906go-EGYQJW_B1Y1qzyTvt0F0GWUWtMsW1xnthPiT0N_FoTNdSlWYmEWbP7Kwgd_8</a></td>
+				</tr>
+				<tr>
+					<td>Criterio A.03: Facilidad de uso</td>
+					<td>Fácil</td>
+					<td><a href="https://www.g2.com/compare/nltk-vs-explosion-ai-spacy?__cf_chl_jschl_tk__=29203810e285dfc932d61132bdf7a4bb79df7655-1619282403-0-Ady4JO0wQE-JV4DUvQPT7Rwkrnryvqlhwagb0DHB9327JL_hTwq5c0mH5Ga9Lr0Y4-AuQgZ_Dzh0AzjgRXYUhCBdeazIz-BqXSpk1e2tbCaVwG_bB87vTNCOGzX7leo-zXZ7eLm08rY0dxtCs5x7y95fQgzMGYbxk5CBSJhrV4TR8rocgGGwfeUwftI9GtA80_rnCFq9SUA122aP0iwphRpm9da9JZQVfq44-NySPCaw52pSRdt5cLDcr5TmLQlddyNovxiVcOx1lOtTIkbkP1eHoMCGbXNxFMLpfTvMf1L3zDJjItfI_DsztHBJ2AxEkhZFPKUVJ-0Nz8CwkKnH-Uil7Fn5YF7ttaX-yzBmPWiGKJ8mIGpxasLESeLVJ4esXJ0-YbPEcKKjsVwWlv2f7B-4r1yyQQjpBq_UagSqTt906go-EGYQJW_B1Y1qzyTvt0F0GWUWtMsW1xnthPiT0N_FoTNdSlWYmEWbP7Kwgd_8">https://www.g2.com/compare/nltk-vs-explosion-ai-spacy?__cf_chl_jschl_tk__=29203810e285dfc932d61132bdf7a4bb79df7655-1619282403-0-Ady4JO0wQE-JV4DUvQPT7Rwkrnryvqlhwagb0DHB9327JL_hTwq5c0mH5Ga9Lr0Y4-AuQgZ_Dzh0AzjgRXYUhCBdeazIz-BqXSpk1e2tbCaVwG_bB87vTNCOGzX7leo-zXZ7eLm08rY0dxtCs5x7y95fQgzMGYbxk5CBSJhrV4TR8rocgGGwfeUwftI9GtA80_rnCFq9SUA122aP0iwphRpm9da9JZQVfq44-NySPCaw52pSRdt5cLDcr5TmLQlddyNovxiVcOx1lOtTIkbkP1eHoMCGbXNxFMLpfTvMf1L3zDJjItfI_DsztHBJ2AxEkhZFPKUVJ-0Nz8CwkKnH-Uil7Fn5YF7ttaX-yzBmPWiGKJ8mIGpxasLESeLVJ4esXJ0-YbPEcKKjsVwWlv2f7B-4r1yyQQjpBq_UagSqTt906go-EGYQJW_B1Y1qzyTvt0F0GWUWtMsW1xnthPiT0N_FoTNdSlWYmEWbP7Kwgd_8</a></td>
+				</tr>
+				<tr>
+					<td>Criterio A.04: Precio</td>
+					<td>Gratis</td>
+					<td><a href="https://es.wikipedia.org/wiki/NLTK">https://es.wikipedia.org/wiki/NLTK</a></td>
+				</tr>
+				<tr>
+					<td>Criterio A.05: Código abierto</td>
+					<td>Si</td>
+					<td><a href="https://www.nltk.org">https://www.nltk.org</a></td>
+				</tr>
+				<tr>
+					<td>Criterio A.06: Licencia</td>
+					<td>Apache 2.0</td>
+					<td><a href="https://es.wikipedia.org/wiki/NLTK">https://es.wikipedia.org/wiki/NLTK</a></td>
+				</tr>
+				<tr>
+					<td>Criterio A.07: Facilidad de instalación</td>
+					<td>Si</td>
+					<td><a href="https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4">https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4</a></td>
+				</tr>
+				<tr>
+					<td>Criterio B.01: API en python</td>
+					<td>Si</td>
+					<td><a href="https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4">https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4</a></td>
+				</tr>
+				<tr>
+					<td>Criterio B.02: Tokenización</td>
+					<td>Si</td>
+					<td><a href="https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4">https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4</a></td>
+				</tr>
+				<tr>
+					<td>Criterio B.03: Etiquetador morfosintáctico</td>
+					<td>Si</td>
+					<td><a href="https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4">https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4</a></td>
+				</tr>
+				<tr>
+					<td>Criterio B.04: Segmentación de frases</td>
+					<td>Si</td>
+					<td><a href="https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4">https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4</a></td>
+				</tr>
+				<tr>
+					<td>Criterio B.05: Analizador de dependencias</td>
+					<td>No</td>
+					<td><a href="https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4">https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4</a></td>
+				</tr>
+				<tr>
+					<td>Criterio B.06: Reconomiento de entidades</td>
+					<td>Si</td>
+					<td><a href="https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4">https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4</a></td>
+				</tr>
+				<tr>
+					<td>Criterio B.07: Análisis del sentimiento</td>
+					<td>Si</td>
+					<td><a href="https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4">https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4</a></td>
+				</tr>
+				<tr>
+					<td>Criterio B.08: Resolución de correferencias</td>
+					<td>No</td>
+					<td><a href="https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4">https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4</a></td>
+				</tr>
+				<tr>
+					<td>Criterio B.09: Vectores de palabras integradas</td>
+					<td>No</td>
+					<td><a href="https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4">https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4</a></td>
+				</tr>
+				<tr>
+					<td>Criterio C.01: Velocidad de tokenizer de palabras</td>
+					<td>60 ms</td>
+					<td><a href="https://medium.com/@akankshamalhotra24/introduction-to-libraries-of-nlp-in-python-nltk-vs-spacy-42d7b2f128f2">https://medium.com/@akankshamalhotra24/introduction-to-libraries-of-nlp-in-python-nltk-vs-spacy-42d7b2f128f2</a></td>
+				</tr>
+				<tr>
+					<td>Criterio C.02: Velocidad de tokenizer de frases</td>
+					<td>20 ms</td>
+					<td><a href="https://medium.com/@akankshamalhotra24/introduction-to-libraries-of-nlp-in-python-nltk-vs-spacy-42d7b2f128f2">https://medium.com/@akankshamalhotra24/introduction-to-libraries-of-nlp-in-python-nltk-vs-spacy-42d7b2f128f2</a></td>
+				</tr>
+				<tr>
+					<td>Criterio C.03: Velocidad del etiquetador morfosintáctico</td>
+					<td>440 ms</td>
+					<td><a href="https://medium.com/@akankshamalhotra24/introduction-to-libraries-of-nlp-in-python-nltk-vs-spacy-42d7b2f128f2">https://medium.com/@akankshamalhotra24/introduction-to-libraries-of-nlp-in-python-nltk-vs-spacy-42d7b2f128f2</a></td>
+				</tr>
+				<tr>
+					<td>Criterio C.04: Precisión del extractor de entidades</td>
+					<td>0.58</td>
+					<td><a href="https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4">https://blog.ekbana.com/private-nltk-vs-spacy-3926b3674ee4</a></td>
+				</tr>
+			</table>
+
+			<h4>COMENTARIOS</h4>
+			<p>En los criterios de la categoría C, se han utilizado los mismos inputs para medir dichos criterios. </p>
+
+		</section>
+
+		<section id="5">
+			<h2>5. Comparacion de las tecnologias</h2>
+			<table>
+				<tr>
+					<th>Criterio</th>
+					<th>spaCy</th>
+					<th>NLTK</th>
+					<th>Comentarios</th>
+
+				</tr>
+				<tr>
+					<td>A.01</td>
+					<td bgcolor="red" >No</td>
+					<td bgcolor=#2ECC71>Si</td>
+					<td>spaCy solo dispone de soporte en inglés mientras que NTLK tiene un soporte en multilenguaje</td>
+				</tr>
+				<tr>
+					<td>A.02</td>
+					<td bgcolor=#2ECC71>Bueno</td>
+					<td bgcolor=#2ECC71>Bueno</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>A.03</td>
+					<td bgcolor=#2ECC71>Fácil</td>
+					<td bgcolor=#2ECC71>Fácil</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>A.04</td>
+					<td bgcolor=#2ECC71>Gratis</td>
+					<td bgcolor=#2ECC71>Gratis</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>A.05</td>
+					<td bgcolor=#2ECC71>Si</td>
+					<td bgcolor=#2ECC71>Si</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>A.06</td>
+					<td bgcolor="#B0BEC5">Lincencia MIT</td>
+					<td bgcolor="#B0BEC5">Apache 2.0</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>A.07</td>
+					<td bgcolor=#2ECC71>Si</td>
+					<td bgcolor=#2ECC71> Si</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>B.01</td>
+					<td bgcolor=#2ECC71>Si</td>
+					<td bgcolor=#2ECC71>Si</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>B.02</td>
+					<td bgcolor=#2ECC71>Si</td>
+					<td bgcolor=#2ECC71>Si</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>B.03</td>
+					<td bgcolor=#2ECC71>Si</td>
+					<td bgcolor=#2ECC71>Si</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>B.04</td>
+					<td bgcolor=#2ECC71>Si</td>
+					<td bgcolor=#2ECC71>Si</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>B.05</td>
+					<td bgcolor=#2ECC71>Si</td>
+					<td bgcolor="red">No</td>
+					<td>NLTK no dispone de la capacidad de analizar las dependencias y por tanto no podrá analizar frases tan eficazmente como spaCy</td>
+				</tr>
+				<tr>
+					<td>B.06</td>
+					<td bgcolor=#2ECC71>Si</td>
+					<td bgcolor=#2ECC71>Si</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>B.07</td>
+					<td bgcolor=#2ECC71>Si</td>
+					<td bgcolor=#2ECC71>Si</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>B.08</td>
+					<td bgcolor="red">No</td>
+					<td bgcolor="red">No</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>B.09</td>
+					<td bgcolor=#2ECC71>Si</td>
+					<td bgcolor="red">No</td>
+					<td>NLTK no puede realizar transformaciones de palabras en vectores</td>
+				</tr>
+				<tr>
+					<td>C.01</td>
+					<td bgcolor=#2ECC71>6 ms</td>
+					<td bgcolor="red">60 ms</td>
+					<td>SpaCy es 10 veces más rápido en tokenizar palabras que NTLK</td>
+				</tr>
+				<tr>
+					<td>C.02</td>
+					<td bgcolor="red">95 ms</td>
+					<td bgcolor=#2ECC71>20 ms</td>
+					<td>NLTK es casi 5 veces más rápido que spaCy tokenizando frases</td>
+				</tr>
+				<tr>
+					<td>C.03</td>
+					<td bgcolor=#2ECC71>22 ms</td>
+					<td bgcolor="red">440 ms</td>
+					<td>Spacy es 20 veces más rápido realizando un etiquetado morfosintáctico que NLTK</td>
+				</tr>
+				<tr>
+					<td>C.04</td>
+					<td bgcolor=#2ECC71>0.69</td>
+					<td bgcolor="red">0.58</td>
+					<td>Spacy es un 11% más preciso que NTLK realizando extracción de entidades</td>
+				</tr>
+			</table>
+		</section>
+
+		<section id="6">
+			<h2>6. Recomendaciones</h2>
+			<h3>6.1 Situacion A</h3>
+			<h4>6.1.1 Descripcion de la situacion</h4>
+			<p>Una empresa está interesada en desarrollar un sistema de recomendación de contenidos a partir de los comentarios sobre un producto. Se busca una herramienta de bajo coste que pueda realizar
+				esta función de la forma más eficaz posible y que dicha herramienta tenga un soporte de calidad y sea fácil de usar.
+			</p>
+			<h4>6.1.2 Recomendacion de la tecnología a utilizar</h4>
+			<table>
+				<tr>
+					<th>Criterios relevantes para la decision</th>
+					<th>Ventajas spaCy</th>
+					<th>Ventajas NLTK</th>
+				</tr>
+				<tr>
+					<td >A.02</td>
+					<td bgcolor=#2ECC71>Buena</td>
+					<td bgcolor=#2ECC71>Buena</td>
+				</tr>
+				<tr>
+					<td>A.03</td>
+					<td bgcolor=#2ECC71>Fácil</td>
+					<td bgcolor=#2ECC71>Fácil</td>
+				</tr>
+				<tr>
+					<td>A.04</td>
+					<td bgcolor=#2ECC71>Gratis</td>
+					<td bgcolor=#2ECC71>Gratis</td>
+				</tr>
+				<tr>
+					<td>B.02</td>
+					<td bgcolor=#2ECC71>Si</td>
+					<td bgcolor=#2ECC71>Si</td>
+				</tr>
+				<tr>
+					<td>B.03</td>
+					<td bgcolor=#2ECC71>Si</td>
+					<td bgcolor=#2ECC71>Si</td>
+				</tr>
+				<tr>
+					<td>B.04</td>
+					<td bgcolor=#2ECC71>Si</td>
+					<td bgcolor=#2ECC71>Si</td>
+				</tr>
+				<tr>
+					<td>B.06</td>
+					<td bgcolor=#2ECC71>Si</td>
+					<td bgcolor=#2ECC71>Si</td>
+				</tr>
+				<tr>
+					<td>B.07</td>
+					<td bgcolor=#2ECC71>Si</td>
+					<td bgcolor=#2ECC71>Si</td>
+				</tr>
+				<tr>
+					<td>B.08</td>
+					<td bgcolor=#2ECC71>Si</td>
+					<td bgcolor=#2ECC71>Si</td>
+				</tr>
+				<tr>
+					<td>C.01</td>
+					<td bgcolor=#2ECC71>6 ms</td>
+					<td bgcolor="red">60 ms</td>
+				</tr>
+				<tr>
+					<td>C.03</td>
+					<td bgcolor=#2ECC71>22 ms</td>
+					<td bgcolor="red">440 ms</td>
+				</tr>
+				<tr>
+					<td>C.04</td>
+					<td bgcolor=#2ECC71>0.69</td>
+					<td bgcolor="red">0.58</td>
+				</tr>
+
+			</table>
+			<p>Como podemos observar en la comparación ambas tecnologías tienen las mismas funcionalidades para realizar esta tarea y por tanto técnicamente se podría realizar con cualquiera de las dos. 
+				Además, ambas cuentan con un buen soporte de calida, son fáciles de usar y su coste gratuito. Sin embargo, para esta labor, la tecnología de spaCy tiene un mejor rendimiento ya que es capaz de 
+				realizar el etiquetado morfosintáctico y velocidad de tokenización de palabras (utilizamos unicamente el de palabras porque normalmente los comentarios suelen ser o una frase o pequeños parrafos) 
+				en una cantidad de tiempo considerablemente menor y además, su herreamienta de extracción de entidades es más precisa que la de NLTK. Por tanto, para esta situación recomendamos la tecnología de spaCy.			
+			</p>
+			<h3>6.2 Situacion B</h3>
+			<h4>6.2.1 Descripcion de la situacion</h4>
+			<p>Un instituto quiere desarrollar una aplicación que sea capaz de realizar análisis sintacto de una oración introducida por el usuario con el objetivo de que los alumnos del instituto puedan practicar
+				el análisis sintáctico sobre cualquier oración. La intención del instituto es realizar una aplicación sencilla y desarrollada por el profesor de informática del instituto.Por tanto la tecnología a 
+				implentar debe ser fácil de usar, fácil de instalar y a un bajo coste. 
+			</p>
+			<h4>6.2.2 Recomendacion de la tecnología a utilizar</h4>						
+			<table>
+				<tr>
+					<th>Criterios relevantes para la decision</th>
+					<th>Ventajas spaCy</th>
+					<th>Ventajas NLTK</th>
+				</tr>
+				<tr>
+					<td>A.03</td>
+					<td bgcolor=#2ECC71>Fácil</td>
+					<td bgcolor=#2ECC71>Fácil</td>
+				</tr>
+				<tr>
+					<td>A.04</td>
+					<td bgcolor=#2ECC71>Gratis</td>
+					<td bgcolor=#2ECC71>Gratis</td>
+				</tr>
+				<tr>
+					<td>A.07</td>
+					<td bgcolor=#2ECC71>Si</td>
+					<td bgcolor=#2ECC71>Si</td>
+				</tr>
+				<td>B.03</td>
+				<td bgcolor=#2ECC71>Si</td>
+				<td bgcolor=#2ECC71>Si</td>
+				</tr>
+				<tr>
+					<td>B.04</td>
+					<td bgcolor=#2ECC71>Si</td>
+					<td bgcolor=#2ECC71>Si</td>
+				</tr>
+				<tr>
+					<td>B.05</td>
+					<td bgcolor=#2ECC71>Si</td>
+					<td bgcolor="red">No</td>
+				</tr>
+				<tr>
+				<tr>
+					<td>B.08</td>
+					<td bgcolor="red">No</td>
+					<td bgcolor="red">No</td>
+				</tr>
+				<tr>
+					<td>C.03</td>
+					<td bgcolor=#2ECC71>22 ms</td>
+					<td bgcolor="red">440 ms</td>
+				</tr>
+			</table>
+			<p>Como podemos observar en la tabla de comaparaciones vemos que ambas tecnologías son faciles de usar e instalar y su coste es gratuito.Tambien podemos observar que
+				coinciden en casi todas las funcionalidades a excepción del analizador de dependencias, una herramienta muy útil para poder realizar
+				el objetivo de la aplicación y que NLTK carece. Tambien podemos observar que ninguna tecnología dispone de una resolución de correferencias y por tanto la aplicación si se aplican estas tecnologías
+				tendrá dificultades a la hora de realizar análisis sintacticos complejos. Finalmente, en cuanto al rendimiento no es un criterio de gran peso en esta situación ya que el destinatario no necesita 
+				un rendimiento excepcional pero si es importante a la hora de seleccionar entre uno y otro y en este caso spaCy tiene una mejor velocidad de etiquetado morfosintáctico. En conclusión, la tecnología de 
+				spaCy es mejor en esta situación principalmente porque a diferencia de NLTK dispone de un analizador de dependencias el cual es decisivo para cumplir el objetivo del instituto. 
+
+			</p>
+		</section>	
+	</main>
+
+</body>
+
+</html>
